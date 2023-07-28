@@ -1,17 +1,17 @@
 # RealTime-FaceRecognition
 
-## Description:
+### Description:
 This Python script performs face recognition in real-time using the `face_recognition` library and OpenCV. It can recognize faces from a live video stream and display the names of known individuals along with their confidence levels based on facial similarity. The script uses pre-registered face images from the `faces` folder to build a database of known faces.
 
 The face recognition algorithm calculates the Euclidean distance between the features of detected faces and known faces to determine the level of similarity. A confidence score is assigned to each recognized face, indicating the percentage of similarity. The confidence score is also written to a `results.txt` file for future reference.
 
-## Requirements:
+### Requirements:
 
 - Python 3.x
 - OpenCV (`cv2`)
 - face_recognition library (`face_recognition`)
 
-## Setup:
+### Setup:
 
 1. Make sure you have Python 3.x installed on your system.
 2. Install the required libraries using `pip`:
@@ -20,7 +20,7 @@ The face recognition algorithm calculates the Euclidean distance between the fea
    ```
 3. Place the images of known faces in the `faces` folder.
 
-## Usage:
+### Usage:
 
 1. Execute the script by running the following command in the terminal or command prompt:
    ```
